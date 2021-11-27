@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+}
+body{
+
+    line-height: 1.6;
+    font-family:'Lato' , 'serif';
+}
+/* basic*/
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    color: #fff;
+}
+.flex{ 
+     display: flex;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+}
+/* ext style*/
+h1,
+h2{
+    font-weight: 300;
+    line-height: 1.2;
+    margin:10px 0;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/* list*/
+
+li{
+list-style:none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+/* btn */
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    padding:10px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity:3.5;
+    background-color: rgba(0, 42, 119, 0.411);
+    color: var(--primary-color);
+}
+
+.btn-outline{   /*extra style we are adding to the previous syle we set to base class btn*/
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn:hover{
+    transform: scale(1);
+}
