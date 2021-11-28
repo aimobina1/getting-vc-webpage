@@ -27,4 +27,35 @@ ul{
 
 li a:hover{
     border-bottom: solid 1px white;
+    color: #fff;
+}
+
+.navbar h1{
+    color:#FFF;
+}
+/* home */
+.home{
+    height:450px;
+    background-color: var(--dark-color);
+}
+.home .grid{
+    gap: 25px;
+
+}
+.content h1{
+    font-weight:900;
+    max-width:460px;
+}
+.home .home-dsc{
+    max-width:450px;
+    color: rgb(192, 191, 191);
+    line-height: 1.3;
+}
+.home-btn{
+    background-color: var(--light-blue);
+    color:rgb(194, 189, 189) !important;
+}
+.home i{
+    color: var(--light-blue);
+    font-size: 20px;
 }
