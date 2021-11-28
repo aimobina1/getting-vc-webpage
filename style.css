@@ -2,33 +2,29 @@
 
 /* navbar */
 .navbar{
-    height:70px;
-    font-size:14px;
     background-color: var(--dark-color);
-    color: #fff;
+    line-height: 1.6;
+    height: 70px;
+    color: rgb(99, 97, 95);
+    justify-content: space-around;
+
 }
-.navbar ul{
+ul{
     display: flex;
-}
-.navbar li a{
-    color: #fff;
-    padding: 10px;
-    margin: 0 5px;
-}
-.navbar a:hover{
-    border-bottom: solid 1.8px white;
-}
-.navbar .flex{
-    justify-content:center;
+    justify-content: center;
 }
 
-.navbar .btn{
-    position: absolute;
-    margin: -10px 0;
-    left: 90%;
+.nav-btn{
+    opacity: 0.7;
+    display: flex;
+    margin: 10px 0;
 }
-.navbar .logo{
-    position: absolute;
-    right: 90%;
+
+.navbar li a{
+    margin: 0 5px;
+    padding: 15px;    
 }
-/* hero */
+
+li a:hover{
+    border-bottom: solid 1px white;
+}
