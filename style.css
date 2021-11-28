@@ -15,7 +15,8 @@ ul{
 }
 
 .nav-btn{
-    opacity:0.4;
+    background-color: rgba(89, 132, 224, 0.35) !important;
+    color: rgb(59, 232, 255);
     display: flex;
     margin: 10px 0;
     
@@ -155,4 +156,30 @@ li a:hover{
     border-radius: 20px;
    background-color: rgb(239, 241, 245);
 
+}
+
+/* footer */
+.footer{
+    height:50%;
+    background-color: var(--dark-color);
+}
+
+.footer-list{
+    flex-direction: column;
+}
+.footer-list li{
+    margin: 5px;
+}
+.footer-list-box {
+color: white;
+}
+.footer p{
+    max-width: 300px;
+}
+.footer i{
+    color: var(--primary-color);
+}
+
+.footer ul{
+    font-size: 14px;
 }

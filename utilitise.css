@@ -8,6 +8,7 @@
     --primary-color: #047aed;
   --secondary-color: #1c3fa8;
   --dark-color: #051420;
+  --light-gray:rgb(190, 190, 190);
   --light-color: #f4f4f4;
 }
 body{
@@ -114,6 +115,12 @@ li{
 .mb{
     margin-top: 2rem;
 }
+.mb-2{
+    margin-top: 1rem;
+}
+.mb-3{
+    margin-top: 5rem;
+}
 .m-1{
     margin: 1rem ;
 }
@@ -132,6 +139,9 @@ li{
 
 .m-7{
     margin:7rem;
+}
+.text-light-gray{
+    color: var(--light-gray);
 }
 /* margin */
 .pd-1{
