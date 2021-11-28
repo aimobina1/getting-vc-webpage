@@ -15,9 +15,10 @@ ul{
 }
 
 .nav-btn{
-    opacity: 0.7;
+    opacity:0.4;
     display: flex;
     margin: 10px 0;
+    
 }
 
 .navbar li a{
@@ -53,9 +54,46 @@ li a:hover{
 }
 .home-btn{
     background-color: var(--light-blue);
-    color:rgb(194, 189, 189) !important;
+    color:white !important;
 }
 .home i{
     color: var(--light-blue);
     font-size: 20px;
+}
+/* vaccine variant */
+.vc-var{
+    height:400px;
+    background-color: rgb(239, 241, 245);
+}
+.vc-var .grid-3{
+    grid-template-columns: repeat(3 , 1fr);
+}
+.vc-var .card p{
+    font-size: 10pxs;
+    max-width: 300px;
+    max-height: 300px;
+    color: rgb(80, 80, 80);
+    
+}
+.vc-var a{
+    color:var(--primary-color);
+}
+.vc-var i{
+    color: var(--light-blue);
+}
+.vc-var i:hover{
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+}
+
+.vc-var .card .flex{
+    justify-content: flex-start;
+}
+
+.vc-var .df-color{
+    background-color: var(--dark-color);
+}
+.vc-var .df-color p {
+    color: white;
+
 }

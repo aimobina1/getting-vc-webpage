@@ -34,7 +34,14 @@ body{
     display: grid;
     grid-template-columns: 150px 1fr 125px;
 }
-
+.card{
+    background-color: #fff;
+    color: #333;
+    border-radius:10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 20px;
+}
 /*text style*/
 h1,h2{
     font-weight: bolder;
@@ -75,6 +82,9 @@ li{
   }
 
   /* margin */
+  .ma-3{
+      margin: 0 2rem;
+  }
   .my-1{
       margin: 1rem 0;
   }
@@ -164,8 +174,7 @@ li{
 .btn{
     display: inline-block;
     padding:7px 20px;
-    color: var(--light-blue);
-    background-color:var(--secondary-color);
+    background-color:var(--primary-color);
     border: none;
     border-radius: 10px;
     font-size: 18px;
