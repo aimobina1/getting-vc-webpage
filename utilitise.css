@@ -38,6 +38,10 @@ body{
     display: grid;
     grid-template-columns: 150px 1fr 125px;
 }
+.grid-wp{
+    display: grid;
+    grid-template-rows:100px  100px 40px;
+}
 .card{
     background-color: #fff;
     color: #333;
@@ -179,7 +183,9 @@ li{
    .text-light{
      color: #fff;
    }
-
+   .bl{
+       font-weight: bold;
+   }
 
 /* btn */
 .btn{
