@@ -62,7 +62,7 @@ li a:hover{
 }
 /* vaccine variant */
 .vc-var{
-    height:400px;
+    height:460px;
     background-color: rgb(239, 241, 245);
 }
 .vc-var .grid-3{
@@ -96,4 +96,36 @@ li a:hover{
 .vc-var .df-color p {
     color: white;
 
+}
+
+/*  About us */
+.about{
+    background-color: rgb(239, 241, 245);
+}
+.about-header p:nth-child(1){
+    font-weight: bold;
+}
+.about-header h1:nth-child(2){
+    font-weight: bold;
+    max-width: 200px;
+}
+
+.about-icons{
+    flex-flow: column;
+    justify-content: space-between;
+}
+.about-icons i{
+    margin: 39px 0;
+    color: var(--primary-color);
+}
+
+.about-cnt{
+    margin-top:10px;
+}
+.about-cnt h1{
+    font-weight: bold;
+    font-size:16px;
+}
+.about-cnt p{
+    font-size: 14px;
 }
