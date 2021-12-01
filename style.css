@@ -292,11 +292,14 @@ color: white;
 /* mobile */
 @media (max-width: 500px) {
     .navbar {
+      margin-left: -30px;
       height: 120px;
+      font-size: 13px;
     }
-    .navbar .grid{
-        grid-template-rows: 400px 300px 200px;
+    .navbar .nav-btn{
+        display: none;
     }
+
     .navbar .flex {
       flex-direction: column;
     }
@@ -308,7 +311,6 @@ color: white;
         text-align: center;
         margin: auto;
     }
-    .home .home-btn,
     .home i{
         justify-content: center;
         align-items: center;
@@ -320,8 +322,15 @@ color: white;
     .home p:nth-child(3){
         max-width: 370px;
     }
+    .home .home-btn{
+        margin:15px 30%;
+        
+    }
     .about h1{
         font-size: 25px;
+    }
+    .about .about-cnt{
+        padding: 50px 0;
     }
      .what-p {
         margin-left: 70px;
@@ -333,26 +342,43 @@ color: white;
     .what .what-p img{
         width:100px;
     }
-    .footer .grid{
-        height:40%;
-
+    .get-vc .grid{
+        position: relative;
+        top:200px;
     }
-    .get-vc{
-        margin-top:- 250px;
-    }
+    
     .navbar ul {
       padding: 10px;
       background-color: rgba(0, 0, 0, 0.1);
     }
     .what .grid{
-        gap:25px;
         height: 20%;
+        grid-template-columns: 490px;
+
     }
-    .vc-var img{
-        justify-content: center;
-        align-items: center;
+   
+    .what h1:nth-child(2){
+        font-size:25px;
+        position: relative;
+        top:-20px;
+    }
+    .what sub,
+    .what h1{
+        position: relative;
+        top:70px;
     }
     .footer .grid{
-        height:80%;
+        height:90%;
+    }
+    .about img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer p { 
+        max-width:340px;
+        text-align: center;
+        margin:10px auto
     }
 }
