@@ -306,7 +306,7 @@ color: white;
     .home button{
         max-width: 250px;
     }
-    .home h{
+    .home h1{
         font-size:25px;
     }
     .about h1{
@@ -315,13 +315,12 @@ color: white;
      .what-p {
         margin-left: 70px;
          width: 75%;
-
     }
     img{
         width:320px
     }
     .what .what-p img{
-        width:100px
+        width:100px;
     }
     .footer .grid{
         height:40%;
@@ -338,7 +337,10 @@ color: white;
         gap:25px;
         height: 20%;
     }
-  
+    .vc-var img{
+        justify-content: center;
+        align-items: center;
+    }
     .footer .grid{
         height:80%;
     }
