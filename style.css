@@ -300,6 +300,13 @@ color: white;
     .navbar .flex {
       flex-direction: column;
     }
+ 
+    .home h1{
+        font-size:25px ;
+    }
+    .about h1{
+        font-size: 25px;
+    }
      .what-p {
         margin-left: 70px;
          width: 75%;
@@ -315,6 +322,9 @@ color: white;
         height:40%;
 
     }
+    .get-vc{
+        margin-top:- 250px;
+    }
     .navbar ul {
       padding: 10px;
       background-color: rgba(0, 0, 0, 0.1);
@@ -325,6 +335,6 @@ color: white;
     }
   
     .footer .grid{
-        height:60%;
+        height:80%;
     }
 }
