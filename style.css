@@ -148,18 +148,17 @@ li a:hover{
 }
 
 /* get-vc */
-.get-vc{
-    height: 65%;
+.get-vc .grid{
+    height: 55%;
 }
 .get-vc-cnt{
-    padding: 50px;
     border-radius: 20px;
    background-color: rgb(239, 241, 245);
 
 }
 
 /* footer */
-.footer{
+.footer .grid{
     height:50%;
     background-color: var(--dark-color);
 }
@@ -182,4 +181,150 @@ color: white;
 
 .footer ul{
     font-size: 14px;
+}
+
+.footer p,
+.footer h1,
+.footer i{
+
+    margin-left:30px;
+}
+
+
+/* Tablets and under */
+@media (max-width : 768px) {
+ 
+    .grid,
+    .home .grid,
+    .vc-var .grid,
+    .about .grid,
+    .what .grid,
+    .get-vc .grid,
+    .grid-3 ,
+    .grid-wp ,
+    .lg-grid,
+    .footer .grid
+    {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+  }
+  .home,
+  .vc-var,
+  .about,
+  .what,
+  .get-vc{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+   }
+    .get-vc img ,
+    .home img,
+    .about img{
+        justify-self: center;
+    }
+
+    .vc-var .card p{
+        max-width: 700px;
+    }
+    
+    .nav-btn {
+        font-size: 15px !important;
+        max-width: 110px !important;
+    }
+    .navbar h1{
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .what .grid{
+        grid-gap: 50px;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 600px;
+    }
+    .home,
+    .get-vc{
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
+    .vc-var h1,
+    .about h1,
+    .about p{
+        margin-left: 38px;
+    }
+    .what .what-p {
+        padding: 10px;
+    }
+    .get-vc{
+        position: relative;
+        padding: 20px;
+        margin-top:500px;
+    }
+
+    .get-vc img{
+        display: none;
+    }
+    .footer{
+        position: relative;
+        top:180px;
+    }
+    .footer .grid{
+        height:100%;
+    }
+    
+    .footer p,
+    .footer h1,
+    .footer i{
+    
+        margin-left: 28%;
+        margin-right: 28%;
+    }
+    
+    .footer h1,
+    .footer  p,
+    .footer i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* mobile */
+@media (max-width: 570px) {
+    .navbar {
+      height: 120px;
+    }
+    .navbar .grid{
+        grid-template-rows: 400px 300px 200px;
+    }
+    .navbar .flex {
+      flex-direction: column;
+    }
+     .what-p {
+        margin-left: 70px;
+         width: 75%;
+
+    }
+    img{
+        width:320px
+    }
+    .what .what-p img{
+        width:100px
+    }
+    .footer .grid{
+        height:40%;
+
+    }
+    .navbar ul {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    .what .grid{
+        gap:25px;
+        height: 20%;
+    }
+  
+    .footer .grid{
+        height:60%;
+    }
 }
