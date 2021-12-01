@@ -290,7 +290,7 @@ color: white;
 }
 
 /* mobile */
-@media (max-width: 570px) {
+@media (max-width: 500px) {
     .navbar {
       height: 120px;
     }
@@ -301,8 +301,13 @@ color: white;
       flex-direction: column;
     }
  
-    .home h1{
-        font-size:25px ;
+    .home h1,
+    .home p,
+    .home button{
+        max-width: 250px;
+    }
+    .home h{
+        font-size:25px;
     }
     .about h1{
         font-size: 25px;
