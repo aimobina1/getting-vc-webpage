@@ -300,14 +300,25 @@ color: white;
     .navbar .flex {
       flex-direction: column;
     }
- 
+   
     .home h1,
-    .home p,
-    .home button{
-        max-width: 250px;
+    .home p{
+        padding: 10px;
+        max-width:250px;
+        text-align: center;
+        margin: auto;
+    }
+    .home .home-btn,
+    .home i{
+        justify-content: center;
+        align-items: center;
+        display:grid;
     }
     .home h1{
-        font-size:25px;
+        font-size:20px;
+    }
+    .home p:nth-child(3){
+        max-width: 370px;
     }
     .about h1{
         font-size: 25px;
